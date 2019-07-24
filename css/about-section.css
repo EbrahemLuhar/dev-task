@@ -1,0 +1,275 @@
+#about-section {
+    position: relative;
+    top: -31px;
+    background: #a7a7a7; /* Old browsers */
+    background: -moz-linear-gradient(left, #a7a7a7 0%, #d8d8d8 40%, #d8d8d8 60%, #a7a7a7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #a7a7a7 0%,#d8d8d8 40%,#d8d8d8 60%,#a7a7a7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a7a7a7 0%,#d8d8d8 40%,#d8d8d8 60%,#a7a7a7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#about-section .about::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#about-section .about .about-left {
+    display: inline-block;
+    width: 50%; 
+    float: left;
+    padding: 2rem 5% 2rem 10%;
+}
+
+#about-section .about .about-left h2 {
+    font-family: 'Metropolis Bold';
+    font-size: 2.9rem;
+    letter-spacing: 1px;
+    color: #e35a47;
+    margin-bottom: 35px;
+}
+
+#about-section .about .about-left .fa-caret-down {
+    font-size: 5rem;
+    color: #e35a47;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#about-section .about .about-left .about-bold  {
+    font-family: 'Metropolis Bold';
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+#about-section .about .about-left .about-text  {
+    font-size: 0.9rem;
+    padding-bottom: 60px;
+}
+
+#about-section .about .about-left a  {
+    font-family: 'Metropolis Bold';
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e35a47;
+    padding: 1rem 1.7rem;
+    letter-spacing: 1px;
+}
+
+#about-section .about .about-right {
+    display: inline-block;
+    width: 50%; 
+    float: left;
+    margin-bottom: -8px;
+}
+
+#about-section .about .about-right img {
+    width: 100%;
+}
+
+#about-section .manufacturing::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#about-section .manufacturing .manufacturing-left {
+    display: inline-block;
+    width: 50%; 
+    float: left;
+}
+
+#about-section .manufacturing .manufacturing-left img {
+    width: 100%;
+}
+
+#about-section .manufacturing .manufacturing-right {
+    display: inline-block;
+    width: 50%; 
+    float: left;
+    padding: 2rem 5% 2rem 10%;
+}
+
+#about-section .manufacturing .manufacturing-right h2 {
+    font-family: 'Metropolis Bold';
+    font-size: 2.9rem;
+    letter-spacing: 1px;
+    color: #e35a47;
+    margin-bottom: 35px;
+}
+
+#about-section .manufacturing .manufacturing-right .fa-caret-down {
+    font-size: 5rem;
+    color: #e35a47;
+}
+
+#about-section .manufacturing .manufacturing-right .manufacturing-bold  {
+    font-family: 'Metropolis Bold';
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#about-section .manufacturing .manufacturing-right .manufacturing-text  {
+    font-size: 0.9rem;
+}
+
+#about-section .finishes {
+    padding: 12rem 0 10rem;
+}
+
+#about-section .finishes::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#about-section .finishes .finishes-left {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+#about-section .finishes .finishes-left .img-wrap {
+    max-width: 450px;
+    float: right;
+}
+
+#about-section .finishes .finishes-left .img-wrap img {
+    width: 100%;
+}
+
+#about-section .finishes .finishes-right {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 4rem 5% 2rem 10%;
+}
+
+#about-section .finishes .finishes-right .fa-caret-down {
+    font-size: 5rem;
+    color: #e35a47;
+}
+
+#about-section .finishes .finishes-right .finishes-bold {
+    font-family: 'Metropolis Bold';
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#about-section .finishes .finishes-right .finishes-text {
+    font-size: 0.9rem;
+    padding-bottom: 60px; 
+}
+
+#about-section .finishes .finishes-right a {
+    font-family: 'Metropolis Bold';
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e35a47;
+    padding: 1rem 1.7rem;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #about-section .about .about-left {
+        display: inline-block;
+        width: 100%; 
+        float: left;
+        padding: 5% 5% 5rem 5%;
+    }
+
+    #about-section .about .about-right {
+        display: inline-block;
+        width: 100%; 
+        float: left;
+        margin-bottom: -8px;
+    }
+
+    #about-section .manufacturing .manufacturing-left {
+        display: none;
+    }
+
+    #about-section .manufacturing .manufacturing-right {
+        display: inline-block;
+        width: 100%; 
+        float: left;
+        padding: 5%;
+    }
+
+    #about-section .finishes {
+        padding: 3rem 0 3rem;
+    }
+
+    #about-section .finishes .finishes-left {
+        display: inline-block;
+        width: 100%;
+        float: left;
+    }
+
+    #about-section .finishes .finishes-right {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        padding: 5%;
+    }
+
+    #about-section .finishes .finishes-left .img-wrap {
+        max-width: 350px;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #about-section .about .about-left h2 {
+        font-size: 2rem;
+    }
+
+    #about-section .about .about-left .fa-caret-down {
+        font-size: 4rem;
+    }
+
+    #about-section .about .about-left .about-bold  {
+        font-size: 1.1rem;
+    }
+
+    #about-section .about .about-left a  {
+        font-size: 1rem;
+    }
+
+    #about-section .manufacturing .manufacturing-right h2 {
+        font-size: 1.8rem;
+    }
+    
+    #about-section .manufacturing .manufacturing-right .fa-caret-down {
+        font-size: 4rem;
+    }
+    
+    #about-section .manufacturing .manufacturing-right .manufacturing-bold  {
+        font-size: 1.1rem;
+    }
+
+    #about-section .finishes .finishes-right .fa-caret-down {
+        font-size: 4rem;
+    }
+    
+    #about-section .finishes .finishes-right .finishes-bold {
+        font-size: 1.1rem;
+    }
+    
+    #about-section .finishes .finishes-right a {
+        font-size: 1rem;
+    }
+}

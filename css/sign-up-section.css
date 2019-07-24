@@ -1,0 +1,46 @@
+#sign-up-section {
+    background: #ffffff;
+    padding: 6rem 0.5rem;
+    text-align: center;
+}
+
+#sign-up-section h2 {
+    font-family: 'Metropolis Bold';
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#sign-up-section p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 3.5rem;
+}
+
+#sign-up-section a {
+    font-family: 'Metropolis Bold';
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e35a47;
+    padding: 0.8rem 3.8rem;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+    #sign-up-section h2 {
+        font-size: 1.4rem;
+    }
+
+    #sign-up-section p {
+        font-size: 1rem;
+    }
+    
+    #sign-up-section a {
+        font-size: 1.1rem;
+    }
+}

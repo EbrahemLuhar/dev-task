@@ -1,0 +1,179 @@
+/* ********** Start of top header row ********** */
+header {
+    background: #000000;
+}
+
+header .top-row {
+    background: #343232;
+    color: #dddddd;
+    padding: 0.4rem 0;
+}
+
+header .top-row .container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 2px;
+}
+
+header .top-row .container::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+header .top-row .container .top-row-left {
+    display: inline-block;
+    float: left;
+    color: #dddddd;
+    font-family: 'Metropolis';
+    font-size: 0.9rem;
+}
+
+header .top-row .container .top-row-right {
+    display: inline-block;
+    float: right;
+    font-family: 'Metropolis Light';
+    font-size: 0.8rem;
+}
+
+header .top-row .container .top-row-right a {
+    color: #dddddd;
+    text-decoration: none;
+    padding: 0.7rem; 
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+}
+
+header .top-row .container .top-row-right a:hover {
+    color: #e35a47;
+}
+/* ********** End of top header row ********** */
+
+/* ********** Start of main header row ********** */
+header .main-header-row {
+    color: white;
+}
+
+header .main-header-row {
+    color: white;
+}
+
+header .main-header-row .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1.5rem 0 2rem;
+}
+
+header .main-header-row .container a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .main-header-row .container .logo{
+    display: flex;
+}
+
+header .main-header-row .container .logo .logo-wrap {
+    display: block;
+    max-width: 160px;
+}
+
+header .main-header-row .container .logo .logo-wrap img {
+    width: 100%;
+}
+
+header .main-header-row .container .logo .line {
+    height: 52px;
+    width: 2px;
+    background: #e35a47;
+    margin: 0 10px 0 16px;
+}
+
+header .main-header-row .container .logo .logo-text span {
+    display: block;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+header .main-header-row .container .search {
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+}
+
+header .main-header-row .container .search::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+header .main-header-row .container .search input[type="text"] {
+    width: 250px;
+    padding: 8px 16px;
+    display: inline-block;
+    float: left;
+    border: 1px solid #ccc;  
+    font-size: 0.9rem;
+}
+
+header .main-header-row .container .search input[type="text"]::placeholder {
+    color: #dddddd;  
+}
+
+header .main-header-row .container .search .fa-search {
+    display: inline-block;
+    float: left;
+    color: #dddddd;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+header .main-header-row .container nav {
+    display: flex;
+}
+
+header .main-header-row .container nav .nav-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+    transition: all 0.2s ease-in-out;
+    overflow: scroll;
+}
+
+header .main-header-row .container nav .nav-icons:hover {
+    color: #e35a47;
+}
+
+header .main-header-row .container nav .nav-icons .fa-caret-down {
+    font-size: 4rem;
+    color: #e35a47;
+}
+
+header .main-header-row .container nav .nav-icons p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+/* ********** End of main header row ********** */
+
+@media only screen and (max-width: 991px) {
+    header .main-header-row .container {
+        display: flex;
+        flex-direction: column;
+    }
+}

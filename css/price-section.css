@@ -1,0 +1,80 @@
+#price-section {
+    text-align: center;
+    padding: 3rem 0 5rem;
+    background: #f0f0f0;
+}
+
+#price-section .container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#price-section .container h2 {
+    font-family: 'Metropolis Bold';
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 10px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #e35a47;
+}
+
+#price-section .container p {
+    font-size: 0.9rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#price-section .container p:last-of-type {
+    padding-bottom: 3.2rem;
+}
+
+#price-section .container .boxes {
+    display: flex;
+    justify-content: center;
+}
+
+#price-section .container .boxes .box {
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+#price-section .container .boxes .box .box-text {
+    padding-top: 1rem;
+}
+
+#price-section .container .boxes .box .box-text .fa-caret-right {
+    color: #e35a47;
+    font-size: 1.3rem;
+    padding-right: 0.2rem;
+}
+
+#price-section .container .boxes .box .box-text span {
+    font-size: 1.3rem;
+    font-family: 'Metropolis Bold';
+}
+
+@media only screen and (max-width: 991px) {
+    #price-section .container .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #price-section .container .boxes .box {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #price-section .container h2 {
+        font-size: 1.4rem;
+        padding: 0 0.2rem;
+    }
+    
+    #price-section .container p {
+        font-size: 0.9rem;
+        padding: 0 0.2rem;
+    }
+}

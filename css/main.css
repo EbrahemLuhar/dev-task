@@ -1,0 +1,21 @@
+@import 'fonts.css';
+@import 'header.css';
+@import 'slideshow.css';
+@import 'about-section.css';
+@import 'price-section.css';
+@import 'custom-section.css';
+@import 'products-section.css';
+@import 'sign-up-section.css';
+@import 'footer.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f0f0f0;
+    font-family: 'Metropolis';
+    line-height: 1.5;
+}
